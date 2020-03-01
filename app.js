@@ -5,7 +5,7 @@ const fs = require("fs");
 
 commentbase=JSON.stringify(commentbase);
 commentbase=JSON.parse(commentbase);
-console.log(commentbase);
+//console.log(commentbase);
 
 
 
@@ -16,7 +16,7 @@ console.log(countId);
 commentbase.comments[countId]=comments.comments;
 commentbase.comments[countId].id=countId;
 //comments.comments[id]=countId;
-console.log(commentbase);
+//console.log(commentbase);
 /* comments.comments[0].id=String(parseInt(commentbase.comments[0].id)+1);
 comments=JSON.stringify(comments);
 console.log(comments); */
